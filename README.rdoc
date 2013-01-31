@@ -1,0 +1,10 @@
+This repository is an experiment in ember/rails development.  I'll be trying to convert the peepcode ember application 
+into a rails database driven app as apposed to a fixture based app.
+
+I'm using ember-rails, the latest from github.
+
+I'll use ember-data for persistance.
+
+The database is sqlite.
+
+I'll lift css from the peepcode repository.
