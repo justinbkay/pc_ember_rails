@@ -16,7 +16,7 @@
 //= require ember
 //= require ember-data
 //= require_self
-//= require pc_ember_rails
 //= require_tree .
+
 App = Ember.Application.create();
 
