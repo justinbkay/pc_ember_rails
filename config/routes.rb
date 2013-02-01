@@ -1,6 +1,7 @@
 PcEmberRails::Application.routes.draw do
 
   resources :tables
+  resources :foods
 
 
   match '/' => 'ember#index'
