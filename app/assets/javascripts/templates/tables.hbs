@@ -1,4 +1,8 @@
-<h2>Tables</h2>
-{{#each table in controller}}
-  {{table.id}}
-{{/each}}
+<div class="row">
+  <div class="four columns" id="tables">
+    {{ partial "tableMenu" }}
+  </div>
+  <div class="eight columns" id="order">
+    {{ outlet }}
+  </div>
+</div>
