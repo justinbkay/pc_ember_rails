@@ -15,3 +15,9 @@ App.TablesRoute = Ember.Route.extend({
     return App.Table.find();
   }
 });
+
+App.IndexRoute = Ember.Route.extend({
+  redirect: function() {
+    this.transitionTo('tables');
+  }
+});
