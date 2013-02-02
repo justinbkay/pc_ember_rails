@@ -1,0 +1,11 @@
+class TabItemsController < ApplicationController
+
+  def index
+    @tab_items = TabItem.where(:id => params[:ids])
+
+    respond_to do |format|
+      format.json { render json: @tab_items }
+    end
+  end
+
+end
