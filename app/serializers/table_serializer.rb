@@ -1,3 +1,3 @@
 class TableSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :tab_id
 end
