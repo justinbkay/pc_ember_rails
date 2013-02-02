@@ -8,4 +8,10 @@ class TabItemsController < ApplicationController
     end
   end
 
+  def create
+    @tab_item = TabItem.create(params[:tab_item])
+
+    render json: @tab_item
+  end
+
 end
